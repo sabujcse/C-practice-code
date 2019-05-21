@@ -1,0 +1,27 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>GetView</title>
+</head>
+<body>
+    <div>
+        @using WebApplication5.Models.MyModel
+        @model Person
+            Hello @Model.UserName</br>
+           <hr />
+        <b>Employee Details</b><br>
+         Person Name: @Model.FullName</br>
+         <span style="background-color:@Model.Salarycolor">
+             Person Salary: @Model.Salary</br>
+         </span>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,27 @@
+﻿@model MVCApplication4.Models.EmployeeDetails
+@{
+    ViewBag.Title = "Details";
+}
+<link href="~/Content/bootstrap.css" rel="stylesheet" />
+<div class="container">
+    <table class="list-group">
+
+
+        <tr>
+            <td>EmployeeId</td>
+            <td>@Model.EmployeeId</td>
+        </tr>
+        <tr>
+            <td>DepartmentId</td>
+            <td>@Model.DepartmentId</td>
+        </tr>
+         <tr>
+        <td>Address</td>
+        <td>@Model.Adress</td>
+        </tr>
+
+    </table>
+
+</div>
+
+

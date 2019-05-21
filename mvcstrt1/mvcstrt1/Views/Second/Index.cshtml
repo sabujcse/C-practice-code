@@ -1,0 +1,21 @@
+﻿@model mvcstrt1.Models.Department
+@{
+    ViewBag.Title = "Index";
+    Layout = null;
+}
+<link href="~/Content/bootstrap.css" rel="stylesheet" />
+<div class="container" style="width:60%;margin-top:2%">
+
+    @if (Model != null)
+    {
+        <ul class="list-group">
+            <li class="list-group-item active">Department Information</li>
+            <li class="list-group-item">Department Id :<b>@Model.Id </b> </li>
+            <li class="list-group-item">Department Name :<b>@Model.Name </b> </li>
+            <li class="list-group-item">Department Code :<b>@Model.Code </b> </li>
+ 
+        </ul>
+    }
+
+
+</div>

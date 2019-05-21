@@ -1,0 +1,59 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>MyView</title>
+</head>
+<body>
+    
+    <div>
+
+        @{
+
+            WebApplication2.Models.Employee employee = (WebApplication2.Models.Employee)
+                //ViewData["Employee"];
+                ViewBag.Employee;
+        }
+       
+
+        @model WebApplication2.Models.Employee
+        <b>Employee Details </b></br>
+        Employe Name: @Model.firstname @Model.lastname</br>
+        @if (Model.Salary > 15000)
+        {
+            <span style="background-color:burlywood">
+                Employee Salary: @Model.Salary.ToString("D");
+            </span>
+        }
+        else
+        {
+            <span style="background-color:crimson">
+                Employee salary: @Model.Salary.ToString("D");
+            </span>
+        }
+        </br>
+        Employe Age:
+        @if (Model.age >= 18)
+        {
+            <span style="background-color:green"> @Model.age.ToString("D");</span>
+        }
+        else if (Model.age > 70 && Model.age <= 120)
+        {
+            <span style="background-color:aqua">@Model.age.ToString("D");</span>
+        }
+        else
+        {
+            <span style="background-color:cadetblue">@Model.age.ToString("D")</span>
+        }
+
+
+
+    </div>
+</body>
+</html>

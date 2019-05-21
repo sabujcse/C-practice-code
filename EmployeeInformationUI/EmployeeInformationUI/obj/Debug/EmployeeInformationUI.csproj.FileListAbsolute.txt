@@ -1,0 +1,10 @@
+G:\c#code\EmployeeInformationUI\EmployeeInformationUI\bin\Debug\EmployeeInformationUI.exe.config
+G:\c#code\EmployeeInformationUI\EmployeeInformationUI\bin\Debug\EmployeeInformationUI.exe
+G:\c#code\EmployeeInformationUI\EmployeeInformationUI\bin\Debug\EmployeeInformationUI.pdb
+G:\c#code\EmployeeInformationUI\EmployeeInformationUI\obj\Debug\EmployeeInformationUI.csprojAssemblyReference.cache
+G:\c#code\EmployeeInformationUI\EmployeeInformationUI\obj\Debug\EmployeeInformationUI.Form1.resources
+G:\c#code\EmployeeInformationUI\EmployeeInformationUI\obj\Debug\EmployeeInformationUI.Properties.Resources.resources
+G:\c#code\EmployeeInformationUI\EmployeeInformationUI\obj\Debug\EmployeeInformationUI.csproj.GenerateResource.cache
+G:\c#code\EmployeeInformationUI\EmployeeInformationUI\obj\Debug\EmployeeInformationUI.csproj.CoreCompileInputs.cache
+G:\c#code\EmployeeInformationUI\EmployeeInformationUI\obj\Debug\EmployeeInformationUI.exe
+G:\c#code\EmployeeInformationUI\EmployeeInformationUI\obj\Debug\EmployeeInformationUI.pdb

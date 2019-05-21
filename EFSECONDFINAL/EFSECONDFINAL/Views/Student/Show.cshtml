@@ -1,0 +1,51 @@
+﻿@model IEnumerable<EFSECONDFINAL.Models.Student>
+@{
+    ViewBag.Title = "Show";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Show</title>
+
+</head>
+<div>
+    @Html.ActionLink("Add New Student", "Save", "Student")
+</div>
+<body>
+    <br />
+    <div>
+        <table border="1">
+            <tr>
+                <th>S.No</th>
+                <th>Name</th>
+                <th>District</th>
+                <th>Email</th>
+                <th>Age</th>
+                <th>Action</th>
+            </tr>
+            @{ int i = 0;}
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@(++i)</td>
+                    <td>@item.Name</td>
+                    <td>@item.District</td>
+                    <td>@item.Email</td>
+                    <td>@item.Age</td>
+                    <td>
+                        @Html.ActionLink("Edit", "Update", "Student", new { Id = item.Id }, null)
+                        @Html.ActionLink("delete", "Delete", "Student", new { Id = item.Id }, null)
+                    </td>
+                </tr>
+            }
+
+        </table>
+    </div>
+</body>
+</html>
+
+<script src="~/Scripts/jquery-1.10.2.js"></script>
+<script src="~/Scripts/jquery-1.10.2.intellisense.js"></script>
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>

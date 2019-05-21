@@ -1,0 +1,45 @@
+﻿@model AgainBAL.Models.Student
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+
+<html>
+<body>
+    <h1>Enter Student Information</h1>
+    <form method="POST">
+        <div>
+            <table>
+                <tr>
+                    <td>Id</td>
+                    <td> <input type="number" id="id" name="Id" /></td>
+                </tr>
+                <tr>
+                    <td>Name:</td>
+                    <td> <input type="text" id="name" name="Name" /></td>
+                </tr>
+                <tr>
+                    <td>Address:</td>
+                    <td> <input type="text" id="address" name="Address" /></td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td> <input type="text" id="email" name="Email" /></td>
+                </tr>
+                <tr>
+                    <td>Age:</td>
+                    <td> <input type="number" id="age" name="Age" /></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Save" /></td>
+                    @Html.ActionLink("Show", "Show", "Student")
+                </tr>
+
+            </table>
+
+        </div>
+    </form>
+</body>
+</html>
+
+

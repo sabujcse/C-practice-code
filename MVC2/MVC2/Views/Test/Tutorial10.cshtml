@@ -1,0 +1,29 @@
+﻿@model MVC2.Models.EmployeeViewModelC
+@{
+    ViewBag.Title = "Tutorial10";
+    Layout = null;
+}
+<link href="~/Content/bootstrap.min.css" rel="stylesheet"/>
+<div class="container" style="width:40%; background-color:bisque; margin-top:2%">
+    @using (Html.BeginForm("SaveRecodrd", "Test", FormMethod.Post))
+    {
+        @Html.DropDownListFor(model => model.Departmentid, ViewBag.DepartmentList as SelectList, "---Select--", new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.Departmentid, "", new { @class = "error" })
+        @Html.TextAreaFor(model => model.Name, new { @class = "form-control", @placeholder = "Name" })
+        @Html.ValidationMessageFor(model => model.Name, "", new { @class = "error" })
+        @Html.TextAreaFor(model => model.Address, new { @class = "form-control", @placeholder = "Address" })
+        @Html.ValidationMessageFor(model => model.Address, "", new { @class = "error" })
+        @Html.TextBoxFor(model=>model.SiteName, new { @class = "form-control", @placeholder = "SiteName" });
+        @*<div>
+                <label class="checkbox">
+                    @Html.CheckBoxFor(m => m.Remember)
+                    check out this
+                </label>
+
+            </div>*@
+        <input type="submit" value="Submit" class="btn btn-block btn-primary" />
+    }
+</div>
+
+
+

@@ -1,0 +1,7 @@
+G:\c#code\ConsoleApp8\ConsoleApp8\bin\Debug\ConsoleApp8.exe.config
+G:\c#code\ConsoleApp8\ConsoleApp8\bin\Debug\ConsoleApp8.exe
+G:\c#code\ConsoleApp8\ConsoleApp8\bin\Debug\ConsoleApp8.pdb
+G:\c#code\ConsoleApp8\ConsoleApp8\obj\Debug\ConsoleApp8.csprojAssemblyReference.cache
+G:\c#code\ConsoleApp8\ConsoleApp8\obj\Debug\ConsoleApp8.csproj.CoreCompileInputs.cache
+G:\c#code\ConsoleApp8\ConsoleApp8\obj\Debug\ConsoleApp8.exe
+G:\c#code\ConsoleApp8\ConsoleApp8\obj\Debug\ConsoleApp8.pdb

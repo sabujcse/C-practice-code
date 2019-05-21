@@ -1,0 +1,68 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>SpView</title>
+</head>
+<body>
+    <div>
+
+        @using WebApplication4.Models.ViewModels
+        @model EmployeeListViewModel
+
+        @*@*@using WebApplication4.Models.ViewModels
+        @Model EmployeeViewModels
+        </br>*@
+        Hello @Model.UserName
+        <hr />
+        <b>Employee details</b>
+        </br>
+        Employee Name: @Model.EmployeeName<br />
+        <span style="background-color:@Model.SalaryColor">
+            Employee Salary: @Model.Salary
+
+        </span>*@
+
+
+        @*@{
+            WebApplication4.Models.Person person = (WebApplication4.Models.Person)
+                ViewBag.Person;
+        }
+        @model WebApplication4.Models.Person
+            <b>Person Details</b></br>
+        Person Name: @Model.FirstName @Model.LastName</br>
+        @if (Model.salary > 50000)
+        {
+            <span style="background-color:cornflowerblue">
+                Salary: @Model.salary.ToString("D");
+            </span>
+        }
+        else
+        {
+            <span style="background-color:darkcyan">
+                Salary: @Model.salary.ToString("D");
+            </span>
+        }
+        </br>
+        @if (Model.age < 18)
+        {
+            <span style="background-color:red">
+                Age: @Model.age.ToString("D");
+            </span>
+        }
+        else
+        {
+            <span style="background-color:green">
+                Age: @Model.age.ToString("D");
+            </span>
+        }*@
+
+    </div>
+</body>
+</html>

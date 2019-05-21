@@ -1,0 +1,12 @@
+C:\Users\sabujs\source\repos\Stackmanagment\Stackmanagment\bin\Debug\Stackmanagment.exe.config
+C:\Users\sabujs\source\repos\Stackmanagment\Stackmanagment\bin\Debug\Stackmanagment.exe
+C:\Users\sabujs\source\repos\Stackmanagment\Stackmanagment\bin\Debug\Stackmanagment.pdb
+C:\Users\sabujs\source\repos\Stackmanagment\Stackmanagment\obj\Debug\Stackmanagment.csprojAssemblyReference.cache
+C:\Users\sabujs\source\repos\Stackmanagment\Stackmanagment\obj\Debug\Stackmanagment.Form1.resources
+C:\Users\sabujs\source\repos\Stackmanagment\Stackmanagment\obj\Debug\Stackmanagment.Properties.Resources.resources
+C:\Users\sabujs\source\repos\Stackmanagment\Stackmanagment\obj\Debug\Stackmanagment.csproj.GenerateResource.cache
+C:\Users\sabujs\source\repos\Stackmanagment\Stackmanagment\obj\Debug\Stackmanagment.csproj.CoreCompileInputs.cache
+C:\Users\sabujs\source\repos\Stackmanagment\Stackmanagment\obj\Debug\Stackmanagment.exe
+C:\Users\sabujs\source\repos\Stackmanagment\Stackmanagment\obj\Debug\Stackmanagment.pdb
+C:\Users\sabujs\source\repos\Stackmanagment\Stackmanagment\obj\Debug\Stackmanagment.Category.resources
+C:\Users\sabujs\source\repos\Stackmanagment\Stackmanagment\obj\Debug\Stackmanagment.CategoryUi.resources

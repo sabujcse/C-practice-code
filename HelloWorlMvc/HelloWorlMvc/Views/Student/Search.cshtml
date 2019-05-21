@@ -1,0 +1,45 @@
+﻿@model List<HelloWorlMvc.Models.Student>
+@{ 
+    ViewBag.Title = "Search";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<form method="POST">
+    <input type="text" name="RegNo" />
+    <input type="submit" name="Search" />
+</form>
+@if(Model != null && Model.Count > 0)
+{
+    var sl = 0;
+    <table border="1">
+        <thead>
+            <tr>
+                <th>SL</th>
+                <th>Name:</th>
+                <th>Address</th>
+                <th>Reg NO</th>
+                <th>Sub Distict</th>
+                <th>Action</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+         
+            @foreach (var student in Model)
+            {
+
+                <tr>
+                    <td>@(++sl)</td>
+                    <td>@student.Name</td>
+                    <td>@student.Address</td>
+                    <td>@student.RegNo</td>
+                    <td>@student.SubDistrictId</td>
+                    <td>
+                        <button>
+                            @Html.ActionLink("Edit", "Edit", "Student", new { id = student.Id },new {@target="_blank" })
+                        </button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

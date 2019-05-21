@@ -1,0 +1,10 @@
+C:\Users\sabujs\source\repos\EmployeeSalaryUI\EmployeeSalaryUI\bin\Debug\EmployeeSalaryUI.exe.config
+C:\Users\sabujs\source\repos\EmployeeSalaryUI\EmployeeSalaryUI\bin\Debug\EmployeeSalaryUI.exe
+C:\Users\sabujs\source\repos\EmployeeSalaryUI\EmployeeSalaryUI\bin\Debug\EmployeeSalaryUI.pdb
+C:\Users\sabujs\source\repos\EmployeeSalaryUI\EmployeeSalaryUI\obj\Debug\EmployeeSalaryUI.csprojAssemblyReference.cache
+C:\Users\sabujs\source\repos\EmployeeSalaryUI\EmployeeSalaryUI\obj\Debug\EmployeeSalaryUI.Form1.resources
+C:\Users\sabujs\source\repos\EmployeeSalaryUI\EmployeeSalaryUI\obj\Debug\EmployeeSalaryUI.Properties.Resources.resources
+C:\Users\sabujs\source\repos\EmployeeSalaryUI\EmployeeSalaryUI\obj\Debug\EmployeeSalaryUI.csproj.GenerateResource.cache
+C:\Users\sabujs\source\repos\EmployeeSalaryUI\EmployeeSalaryUI\obj\Debug\EmployeeSalaryUI.csproj.CoreCompileInputs.cache
+C:\Users\sabujs\source\repos\EmployeeSalaryUI\EmployeeSalaryUI\obj\Debug\EmployeeSalaryUI.exe
+C:\Users\sabujs\source\repos\EmployeeSalaryUI\EmployeeSalaryUI\obj\Debug\EmployeeSalaryUI.pdb

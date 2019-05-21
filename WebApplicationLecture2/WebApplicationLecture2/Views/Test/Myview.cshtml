@@ -1,0 +1,29 @@
+﻿@model WebApplicationLecture2.Models.EmployeeViewModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Myview</title>
+</head>
+<body>
+    <div>
+        @{
+            WebApplicationLecture2.Models.EmployeeViewModel employee = (WebApplicationLecture2.Models.EmployeeViewModel)
+                ViewData["EmployeeViewModel"];
+
+        }
+       
+       <hr />
+        </br><b>Employee Details:</b><br />
+        EmployeeFullName: @Model.EmployeeName<br />
+                                                <span style="background-color:@Model.SalaryColor">
+                                                    EmployeeSalary: @Model.Salary<br />
+                                                </span>
+    </div>
+</body>
+</html>

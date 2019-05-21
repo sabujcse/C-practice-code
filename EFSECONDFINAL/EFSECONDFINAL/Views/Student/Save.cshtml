@@ -1,0 +1,43 @@
+﻿@model EFSECONDFINAL.Models.Student
+@{
+    ViewBag.Title = "Save";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+</head>
+
+<body>
+    <h1>Enter Student Information</h1>
+    <form method="POST">
+        <div>
+            <table>
+                <tr>
+                    <td>Name:</td>
+                    <td> <input type="text" id="name" name="Name" /></td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td> <input type="text" id="email" name="Email" /></td>
+                </tr>
+                <tr>
+                    <td>District:</td>
+                    <td> <input type="text" id="district" name="District" /></td>
+                </tr>
+                <tr>
+                    <td>Age:</td>
+                    <td> <input type="number" id="age" name="Age" /></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Save" /></td>
+                    @Html.ActionLink("Show", "Show", "Student")
+                </tr>
+
+            </table>
+
+        </div>
+    </form>
+</body>
+</html>
+

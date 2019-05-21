@@ -1,0 +1,25 @@
+﻿@using WebApplication11.NewFoldar
+@model EmployeeDetails
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ViewMy</title>
+</head>
+<body>
+    <div>
+        Employee Details<hr>
+        <br />
+        Hello @Model.Username<br />
+        Employer Name: @Model.FullName <br />
+        <span style="background-color:@Model.SalaryColor">
+            Employeer Salary: @Model.SalaryColor
+        </span>
+    </div>
+</body>
+</html>

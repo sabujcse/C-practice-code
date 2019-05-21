@@ -1,0 +1,41 @@
+﻿@using WebApplication7.Models.ViewModel
+@model EmployeeListViewModel
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>MyView</title>
+</head>
+<body>
+    <div>
+        @{
+            WebApplication7.Models.Employee employee = (WebApplication7.Models.Employee)
+
+               ViewBag.Employee;
+        }
+        Hello @Model.userName
+        <hr />
+        <div>
+            <table>
+                <tr>
+                    <th>Employee Name</th>
+                    <th>Salary</th>
+                </tr>
+                @foreach (EmployeeViewModel item in Model.Employee)
+                {
+                    <tr>
+                        <td>@item.Employeename</td>
+                        <td style="background-color:@item.salaryColor">@item.salary</td>
+                    </tr>
+                }
+            </table>
+        </div>
+    </div>
+</body>
+</html>

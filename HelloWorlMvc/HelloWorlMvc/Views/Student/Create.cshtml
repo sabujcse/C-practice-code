@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Create</title>
+</head>
+<body>
+    @if (ViewBag.SMs != null)
+    {
+        <p style="color:green;font-weight:bolder">@(ViewBag.SMs )</p>
+    }
+    else if (ViewBag.FMs != null)
+    {
+        <p style="color:red;font-weight:bolder">@(ViewBag.FMs )</p>
+    }
+    <div> 
+        <form method="POST">
+        <table>
+            <tr>
+                <td> Name: </td>
+                <td><input type="text" id="name" name="Name" /> </td>
+            </tr>
+            <tr>
+                <td>Action:</td>
+                <td><input type="submit" value="Save"</td>
+            </tr>
+
+         </table>
+            </form>
+    </div>
+</body>
+</html>

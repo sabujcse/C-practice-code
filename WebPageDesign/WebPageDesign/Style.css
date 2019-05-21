@@ -1,0 +1,55 @@
+﻿body {
+    width:auto;
+    background-color:lightgoldenrodyellow;
+}
+.warperr{
+    
+    width:960px;
+    margin:0 auto;
+    
+}
+header{
+    width:960px;
+    
+    float:left;
+}
+.logo {
+    width:600px;
+    height:100px;
+    background-color:tomato;
+    float:left;
+   
+
+}
+.banner{
+    width:360px;
+    height:100px;
+    background-color:aquamarine;
+    float:left;
+}
+nav{
+
+}
+nav ul{
+
+}
+nav ul li {
+    display:inline;
+}
+nav ul li a{
+    width:190px;
+    display:inline-block;
+    text-decoration:none;
+    background:black;
+    color:white;
+    float:left;
+    text-align:center;
+    padding:5px 0;
+    border:1px solid blue;
+
+}
+nav ul li a:hover{
+    background:white;
+    color:black;
+}
+

@@ -1,0 +1,24 @@
+﻿@model IEnumerable<MVC2.Models.EmployeeViewModelC>
+@{
+    ViewBag.Title = "Index";
+    Layout = null;
+}
+<link href="~/Content/bootstrap.css" rel="stylesheet" />
+<div class="container" style="width:38%;margin-top:2%">
+    @if (Model != null)
+    {
+         <ul class="list-group">
+             @foreach(var item in Model)
+             {
+                 <li class="list-group-item">
+                     @*<a href="/Test/EmployeeDetails?EmployeeId=@item.EmployeeId">@item.Name</a>*@
+                     @Html.ActionLink(item.Name, "EmployeeDetails", new { EmployeeId =item.EmployeeId}, new { @class = "btn btn-block btn-success"});
+                 </li>
+             }
+         </ul>
+    }
+
+
+</div>
+
+

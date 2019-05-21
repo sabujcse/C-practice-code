@@ -1,0 +1,50 @@
+﻿
+@{
+    ViewBag.Title = "SecondPage";
+
+}
+@*<link href="~/Content/bootstrap.css" rel="stylesheet" />
+<h2>Hello Programmer</h2>
+<div class="container" style="width:60%; margin-top:2%">
+    <table class="table table-striped">
+
+        <tr style="background-color:aqua">
+            <th style="background-color:burlywood">Id</th>
+            <th style="background-color:aquamarine">Name</th>
+            <th style="background-color:cadetblue">Department</th>
+        </tr>
+        <tbody>
+
+            @foreach (var item in ViewData["EmployList"] as List<TutorialVideo.Models.Employee>)
+            {
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.Name</td>
+                    <td>@item.Department</td>
+                </tr>
+
+            }
+
+            <tr></tr>
+        </tbody>
+    </table>*@
+
+    <div class="container">
+        <ul class="list-group">
+            <li class="list-group-item">
+                Your ViewBag Value Is <b>@ViewBag.EmployeeNameVB</b>
+            </li>
+            <li class="list-group-item">
+                Your ViewData Value Is <b>@ViewData["EmployeeNameVD"]</b>
+            </li>
+            <li class="list-group-item">
+                Your Tempdata Value Is <b>@TempData["EmployeeNameTD"]</b>
+            </li>
+            <li class="list-group-item">
+                <a href="/Test/Index">Go To The First Page</a>
+            </li>
+        </ul>
+
+
+    </div>
+

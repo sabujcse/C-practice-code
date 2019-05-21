@@ -1,0 +1,11 @@
+C:\Users\sabujs\source\repos\StactManagment\StactManagment\bin\Debug\StactManagment.exe.config
+C:\Users\sabujs\source\repos\StactManagment\StactManagment\bin\Debug\StactManagment.exe
+C:\Users\sabujs\source\repos\StactManagment\StactManagment\bin\Debug\StactManagment.pdb
+C:\Users\sabujs\source\repos\StactManagment\StactManagment\obj\Debug\StactManagment.Form1.resources
+C:\Users\sabujs\source\repos\StactManagment\StactManagment\obj\Debug\StactManagment.Properties.Resources.resources
+C:\Users\sabujs\source\repos\StactManagment\StactManagment\obj\Debug\StactManagment.csproj.GenerateResource.cache
+C:\Users\sabujs\source\repos\StactManagment\StactManagment\obj\Debug\StactManagment.csproj.CoreCompileInputs.cache
+C:\Users\sabujs\source\repos\StactManagment\StactManagment\obj\Debug\StactManagment.exe
+C:\Users\sabujs\source\repos\StactManagment\StactManagment\obj\Debug\StactManagment.pdb
+C:\Users\sabujs\source\repos\StactManagment\StactManagment\obj\Debug\StactManagment.csprojAssemblyReference.cache
+C:\Users\sabujs\source\repos\StactManagment\StactManagment\obj\Debug\StactManagment.VSBTD.resources

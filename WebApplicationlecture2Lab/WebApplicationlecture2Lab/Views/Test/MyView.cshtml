@@ -1,0 +1,81 @@
+﻿@model WebApplicationlecture2Lab.Models.Employee
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>MyView</title>
+</head>
+<body>
+    <div> 
+        <table border="1">
+            <tr>
+                <th>
+                    First Name
+                </th>
+                <th>
+                    Last Name
+                </th>
+                <th>
+                    Salary
+                </th>
+                <th>
+                    Full Name
+                </th>
+            </tr>
+            <tbody>
+                <tr>
+                    <td>
+                        @Model.FirstName
+                    </td>
+                    <td>
+                        @Model.LastName
+                    </td>
+                    <td>
+                        @if (Model.Salary > 2000)
+                        {
+                        <span style="background-color:dodgerblue">
+                            @Model.Salary
+
+                        </span>
+
+                        }
+                        else
+                        {
+                            <span style="background-color:aqua">
+                                @Model.Salary
+                            </span>
+                        }
+                    </td>
+                    <td>
+                        @Model.FirstName@Model.LastName
+                    </td>
+                   
+                </tr>
+            </tbody>
+        </table>
+       
+        @*<b>Employee Details:</b></br >
+        FullName: @Model.FirstName</br>
+        LastName: @Model.LastName</br>
+        @if (Model.Salary > 20000)
+        {
+        <b>Employee Salary:</b> 
+            <span style="background-color:Highlight">
+                @Model.Salary
+            </span>
+        }
+        else
+        {
+            <b>Employee Salary:</b>
+            <span style="background-color:steelblue">
+                @Model.Salary
+            </span>
+        }*@
+
+    </div>
+</body>
+</html>

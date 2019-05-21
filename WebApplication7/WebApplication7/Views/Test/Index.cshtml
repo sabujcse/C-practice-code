@@ -1,0 +1,55 @@
+﻿@model IEnumerable<WebApplication7.Models.ExampleViews>
+@{
+    ViewBag.Title = "Index";
+}
+<link href="~/Content/bootstrap.css" rel="stylesheet" />
+<table class="table table-striped">
+    <tr>
+        <th>Id </th>
+        <th> First Name </th>
+        <th> Last Name </th>
+        <th> Full name </th>
+        <th> Address </th>
+        <th> Department </th>
+    </tr>
+    <tbody>
+        @foreach(var item in Model)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.First_Name</td>
+                <td>@item.Last_Name</td>
+                <td>@item.First_Name@item.Last_Name</td>
+                <td>@item.Address</td>
+                <td>@item.Department</td>
+            </tr>
+        }
+
+    </tbody>
+
+
+
+</table>
+@*<table style="width:60%" border="1">
+    <tr>
+    <th>Id </th>
+    <th> First Name </th>
+    <th> Last Name </th>
+    <th> Full name </th>
+    <th> Address </th>
+    <th> Department </th>
+    </tr>
+    <tr>
+        <td>@Model.Id</td>
+        <td>@Model.First_Name</td>
+        <td>@Model.Last_Name</td>
+        <td>@Model.First_Name @Model.Last_Name</td>
+        <td>@Model.Address</td>
+        <td>
+            <span style="background-color:@Model.Color">
+                @Model.Department
+            </span>
+        </td>
+        
+    </tr>
+</table>*@

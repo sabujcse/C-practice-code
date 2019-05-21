@@ -1,0 +1,16 @@
+﻿@model MVCTutorial4.Models.DepartmentViewModel
+    @{
+        ViewBag.Title = "Depart";
+    }
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <div class="container" style="width:60%;margin-top:2%">
+        <ul class="list-group">
+
+            <li class="list-group-item active">Depatrment Details:</li>
+            <li class="list-group-item">@Model.DepartmentId</li>
+            <li class="list-group-item">@Model.DepartmentName</li>
+            <li class="list-group-item"><a href="/Test/Index">Click Here</a> <a href="/Home/About">Again Click</a></li>
+        </ul>
+        
+    </div>
+

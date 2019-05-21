@@ -1,0 +1,10 @@
+G:\c#code\SeveralControlExample\SeveralControlExample\bin\Debug\SeveralControlExample.exe.config
+G:\c#code\SeveralControlExample\SeveralControlExample\bin\Debug\SeveralControlExample.exe
+G:\c#code\SeveralControlExample\SeveralControlExample\bin\Debug\SeveralControlExample.pdb
+G:\c#code\SeveralControlExample\SeveralControlExample\obj\Debug\SeveralControlExample.Form1.resources
+G:\c#code\SeveralControlExample\SeveralControlExample\obj\Debug\SeveralControlExample.Properties.Resources.resources
+G:\c#code\SeveralControlExample\SeveralControlExample\obj\Debug\SeveralControlExample.csproj.GenerateResource.cache
+G:\c#code\SeveralControlExample\SeveralControlExample\obj\Debug\SeveralControlExample.csproj.CoreCompileInputs.cache
+G:\c#code\SeveralControlExample\SeveralControlExample\obj\Debug\SeveralControlExample.exe
+G:\c#code\SeveralControlExample\SeveralControlExample\obj\Debug\SeveralControlExample.pdb
+G:\c#code\SeveralControlExample\SeveralControlExample\obj\Debug\SeveralControlExample.csprojAssemblyReference.cache

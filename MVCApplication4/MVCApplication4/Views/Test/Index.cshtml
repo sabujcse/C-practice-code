@@ -1,0 +1,20 @@
+﻿@model MVCApplication4.Models.EmployeeDetails
+@{
+    ViewBag.Title = "Index";
+}
+
+<link href="~/Content/bootstrap.css" rel="stylesheet" />
+<div class="container" style="width:60%;margin-top:2%">
+
+@using (Html.BeginForm("SaveResult", "Test", FormMethod.Post))
+{
+ @Html.DropDownListFor(model => model.DepartmentId, ViewBag.EmployeeList as SelectList, "---DepartMent Id---", new { @class = "form-control" })
+
+ @Html.TextBoxFor(model => model.Name, new { @class = "form-control", @placeholder = "Name" })
+
+ @Html.TextBoxFor(model => model.Adress, new { @class = "form-control", @placeholder = "Address" })
+    <input type="submit" value="submit" class="btn btn-block btn-primary" />
+}
+
+</div>
+

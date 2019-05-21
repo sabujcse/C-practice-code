@@ -1,0 +1,68 @@
+﻿
+@model AgainBAL.Models.Student
+    @{ 
+    Layout = null;
+}
+
+<h2>Update Student</h2>
+@using (Html.BeginForm("POST"))
+{
+    <div>
+        <table>
+            <tr>
+                <td>
+                    @Html.Label("ID")
+
+                </td>
+                <td>
+                    @Html.TextBox("ID")
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    @Html.LabelFor(c=>c.Name)
+
+                </td>
+                <td>
+                    @Html.TextBoxFor(c => c.Name)
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    @Html.LabelFor(c => c.Address)
+
+                </td>
+                <td>
+                    @Html.TextBoxFor(c => c.Address)
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    @Html.LabelFor(c => c.Email)
+
+                </td>
+                <td>
+                    @Html.TextBoxFor(c => c.Email)
+                </td>
+                </tr>
+               <tr>
+                <td>
+                    @Html.LabelFor(c => c.Age)
+
+                </td>
+                <td>
+                    @Html.TextBoxFor(c => c.Age)
+                </td>
+
+            </tr>
+            <tr>
+                <td><input type="submit" value="UPDATE" /></td>
+                @Html.ActionLink("Show", "Show", "Student")
+            </tr>
+        </table>
+    </div>
+}
+

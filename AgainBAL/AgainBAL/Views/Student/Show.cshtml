@@ -1,0 +1,47 @@
+﻿@model IEnumerable<AgainBAL.Models.Student>
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Show</title>
+</head>
+<div>
+    @Html.ActionLink("Add New Student", "Add", "Student")
+</div>
+<body>
+
+    <br />
+    <div>
+        <table border="1">
+            <tr>
+                <th>S.No</th>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Email</th>
+                <th>Age</th>
+            </tr>
+            @{ int i = 0;}
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@(++i)</td>
+                    <td>@item.Name</td>
+                    <td>@item.Address</td>
+                    <td>@item.Email</td>
+                    <td>@item.Age</td>
+                    <td>
+                        @Html.ActionLink("Edit", "Update", "Student", new { Id = item.Id }, null)
+                        @*@Html.ActionLink("delete", "Delete", "Student", new { Id = item.Id }, null)*@
+                    </td>
+                </tr>
+            }
+
+        </table>
+    </div>
+</body>
+</html>
+
+
+

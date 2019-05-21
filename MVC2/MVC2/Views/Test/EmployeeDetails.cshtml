@@ -1,0 +1,24 @@
+﻿@model MVC2.Models.EmployeeViewModelC
+@{
+    ViewBag.Title = "EmployeeDetails";
+    Layout = null;
+}
+<link  href="~/Content/bootsrap.min.css" rel="stylesheet"/>
+<div class="container">
+    <h3>EmployeeDetails</h3>
+    <table class="table table-striped" style="width:40%">
+        <tr>
+            <td>Emplay Name</td>
+            <td>@Model.Name</td>
+        </tr>
+        <tr>
+            <td>Emplay Address</td>
+            <td>@Model.Address</td>
+        </tr>
+        <tr>
+            <td>Emplay Department</td>
+            <td>@Model.DepartmentName</td>
+        </tr>
+
+    </table>
+</div>

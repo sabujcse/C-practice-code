@@ -1,0 +1,10 @@
+G:\c#code\FirstExamApp\FirstExamApp\bin\Debug\FirstExamApp.exe.config
+G:\c#code\FirstExamApp\FirstExamApp\bin\Debug\FirstExamApp.exe
+G:\c#code\FirstExamApp\FirstExamApp\bin\Debug\FirstExamApp.pdb
+G:\c#code\FirstExamApp\FirstExamApp\obj\Debug\FirstExamApp.csprojAssemblyReference.cache
+G:\c#code\FirstExamApp\FirstExamApp\obj\Debug\FirstExamApp.Form1.resources
+G:\c#code\FirstExamApp\FirstExamApp\obj\Debug\FirstExamApp.Properties.Resources.resources
+G:\c#code\FirstExamApp\FirstExamApp\obj\Debug\FirstExamApp.csproj.GenerateResource.cache
+G:\c#code\FirstExamApp\FirstExamApp\obj\Debug\FirstExamApp.csproj.CoreCompileInputs.cache
+G:\c#code\FirstExamApp\FirstExamApp\obj\Debug\FirstExamApp.exe
+G:\c#code\FirstExamApp\FirstExamApp\obj\Debug\FirstExamApp.pdb

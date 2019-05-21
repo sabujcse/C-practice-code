@@ -1,0 +1,24 @@
+﻿@model MVC2.Models.EmployeeViewModelC
+@{
+    ViewBag.Title = "Get";
+}
+
+<div>
+    @{ 
+        var number = 6;
+    }
+     
+        @if (number%2==0)
+        {
+         <div>
+          @number is a even 
+         </div>
+        }
+        else{
+            <div>
+                @number is odd
+            </div>
+    }
+    
+</div>
+
